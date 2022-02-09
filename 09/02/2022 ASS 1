@@ -1,0 +1,11 @@
+a=int(input('enter number:'))
+b=int(input('enter number:'))
+if a>b :
+    print('a is greatest number')
+else :
+    print('b is gratest number')
+    
+    OUT PUT:
+   enter number:45
+enter number:18
+a is greatest number 
