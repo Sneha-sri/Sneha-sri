@@ -1,0 +1,10 @@
+#program for identifying whether the given number is poditive or negative
+a=int(input('enter number'))
+if a>0:
+    print('positive number')
+else:
+    print('negative number')
+    
+    OUTPUT:
+   enter number-23
+negative number
