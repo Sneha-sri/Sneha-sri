@@ -1,0 +1,11 @@
+#Find no.of digits in a given number:
+n=int(input('enter number:'))
+count=0
+while n>0:
+    n=n//10
+    count +=1
+print('no.of digits',count)
+
+output:
+enter number:5475865412
+no.of digits 10
