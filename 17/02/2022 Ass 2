@@ -1,0 +1,8 @@
+a=-1
+b=1
+n=int(input())
+For i in range (1,n+1):
+    C=a+b
+    Print(C)
+    a=b
+    b=C
