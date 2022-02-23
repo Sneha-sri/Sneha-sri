@@ -1,0 +1,21 @@
+#PROGRAM TO PRINT THE REVERSE OF GIVEN NUMBERS
+n=int(input('enter n:))
+l=[]
+for i in range(n):
+    j=int(input())
+    l.append(j)
+for i in range(n-1,-1,-1):
+    print(l[i])
+    
+    
+   OUTPUT:
+   enter n:4
+   5
+   7
+   4
+   3
+   
+   3
+   4
+   7
+   5
