@@ -1,0 +1,15 @@
+#student dictionary
+s={1:['sri',"FM",'MPCs',8],2:['sai','M','MECs',9],3:['siri','FM','BCA',7]}
+x=int(input('enter student number:'))
+print('name of the student:',s[x][0])
+print('gender:',s[x][1])
+print('group:',s[x][2])
+print('result:',s[x][3])
+
+
+OUTPUT:
+enter student number:2
+name of the student: sai
+gender: M
+group: MECs
+result: 9
