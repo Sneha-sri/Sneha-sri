@@ -1,0 +1,17 @@
+#employee dictionary
+e={1:['sri','manager',10000,'5jan'],2:['sai','asst manager',5000,'6jan'],3:['siri','clerk',2000,'8jan']}
+x=int(input('enter employee number:'))
+print('name of the employee:',e[x][0])
+print('designation:',e[x][1])
+print('salary:',e[x][2])
+print('doj:',e[x][3])
+
+
+
+
+output:
+enter employee number:3
+name of the employee: siri
+designation: clerk
+salary: 2000
+doj: 8jan
